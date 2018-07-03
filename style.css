@@ -26,14 +26,20 @@ The widths of each section should be:
 section: 495px
  **/
 
- * {
-    box-sizing: border-box;
-    text-align: center;
-    margin: 10px;
-    padding: 10px;
-  }
 
-  body {
+* {
+   box-sizing: border-box;
+   text-align: center;
+   margin: 10px;
+   padding: 10px;
+}
+  
+ p, h1 {
+    color: #777;
+    background: #ebebeb; 
+ }
+    
+ body {
     font-size: 18px;
     line-height: 32px;
     width: 960px;
@@ -42,35 +48,26 @@ section: 495px
     background: #777;
   }
 
- header {
-    color: #333;
+ header, nav, section, aside, footer {
+    clear: both;
     background: #ebebeb;
-    display: block;
  }
 
- nav { 
-    float: left;
-    color: #fff;
-    background: #ebebeb;
-  }
-
  section {
+    float: left;
     width: 495px;
     background:#ebebeb;
   }  
-  aside {
-    float: right;
-    color:#ebebeb;
+  
+ aside {
+    display: inline-block;
+    color: #777;
+    background:#ebebeb;
+    width: 33%;
   }
 
   article { 
       color: #ebebeb;
       background: #777;
   }
-
-  footer {
-    clear: both;
-    background: #ebebeb;
-  }
-  
   
