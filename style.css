@@ -48,26 +48,26 @@ section: 495px
     background: #777;
   }
 
- header, nav, section, aside, footer {
-    clear: both;
+ header, nav, footer {
+    clear: left;
     background: #ebebeb;
  }
-
  section {
     float: left;
     width: 495px;
+    height: 300px;
     background:#ebebeb;
   }  
   
  aside {
-    display: inline-block;
+    float: right;
+    width: 405px;
+    height: 300px;
     color: #777;
     background:#ebebeb;
-    width: 33%;
   }
 
   article { 
       color: #ebebeb;
       background: #777;
   }
-  
